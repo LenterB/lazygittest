@@ -1,0 +1,13 @@
+# 排除 .env 文件，防止敏感信息泄露
+.env
+
+# Python 缓存和虚拟环境
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# 数据库日志和临时文件
+*.log
+*.tmp
